@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+	<title></title>
+	<script type="text/javascript" src="trap.js"></script>
+	<link rel="stylesheet" href="forms.css" type="text/css">
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	 <link rel="stylesheet" href="form.css" type="text/css" media="print">
+	<meta charset="utf-8">
+</head>
+<body>
+	<form>
+		<div class="header">
+			<a onclick="myFunction();" class="print" id="print"><i class="fa fa-print"></i>Print</a>
+		</div>
+		<main class="clearfix">
+			<div class="content">
+				<section>
+					<div class="row1">
+						<div class="col1">
+							<img class="logo" src="log.png" alt="logo">
+						</div>
+
+					
+						<div class="col2 bold text-center  ">
+							<strong>Professional Regulation Commission</strong>
+						</div>
+
+						<div class="col3 bold   text-center">
+							<strong>APPLICATION FOR CREDITING OF SELF DIRECTED  AND/OR LIFELONG LEARNING</strong>
+					
+						</div>
+					</div><!-- row -->
+					</section>
+					<section>
+					<div class="row2">
+						
+						<h4 class="bold text-center">CPD Council for<input type="text" id="cpd" /></h4>
+					</div>
+				</section>
+				<section>
+					<div class="table">
+					<div class="row">
+						<div class="thead1  border-bottom text-left">
+							<p class="bold">
+								<small>Part I. Personal Information</small>
+							</p>
+						</div>
+			</div> <!-- row -->
+				<div class="row">
+					<div class="col-1 border-bottom border-right text-left">
+					<p>Name:</p>
+				</div>
+				<div class="col-2  border-bottom border-left text-left">
+					<input type="text" name="txtname" id="name" />
+				</div>
+			</div> <!-- row -->
+				<div class="row">
+					<div class="col-3 border-bottom border-right  text-left">
+						<p>Profession:</p>
+					</div>
+					<div class="col-4  border-right border-left border-bottom text-left">
+						<input type="text" name="txtname" id="profession" />
+					</div>
+					<div class="col-3  border-right border-bottom text-left">
+						<p class="margin-top">License No.:</p>
+					</div>
+					<div class="col-4   border-bottom border-left text-left">
+						<input type="text" name="txtname"/>
+					</div>
+				</div> <!-- row -->
+				<div class="row">
+					<div class="col-3 border-right border-bottom   text-left">
+						<p>Date Issued:</p>
+					</div>
+					<div class="col-4   border-bottom border-right border-left text-left text-left">
+						<input type="date" name="txtname" id="DateIssued" />
+					</div>
+					<div class="col-3  border-bottom border-right text-left">
+						<p class="margin-top">Valid Until:</p>
+					</div>
+					<div class="col-4  border-bottom border-left text-left">
+						<input type="date" name="txtname" id="Validity" />
+					</div>
+				</div> <!-- row -->
+				<div class="row">
+					<div class="col-1  border-bottom border-right text-left">
+						<p>Residence Address:</p>
+					</div>
+					<div class="col-2  border-left border-bottom text-left">
+						<input type="text" name="txtname" id="Residence" />
+					</div>
+				</div> <!-- row -->
+				<div class="row">
+					<div class="col-3 border-right border-bottom  text-left">
+						<p>Telephone No.:</p>
+					</div>
+					<div class="col-4  border-left border-right border-bottom  text-left">
+						<input type="text" name="txtname" id="TelephoneNumber" />
+					</div>
+					<div class="col-3 border-right border-bottom btext-left">
+						<p class="margin-top">Fax No.:</p>
+					</div>
+					<div class="col-4 text-left  border-left border-bottom">
+						<input type="text" name="txtname" id="FaxNumber" />
+					</div>
+				</div> <!-- row -->
+				<div class="row">
+					<div class="col-3  border-right border-bottom text-left">
+						<p>Cellphone No.:</p>
+					</div>
+					<div class="col-4 text-left  border-bottom border-right border-left ">
+						<input type="text" name="txtname" id="CellphoneNumber" />
+					</div>
+					<div class="col-3 text-left  border-right border-bottom">
+						<p class="margin-top">E-mail Address:</p>
+					</div>
+					<div class="col-4 text-left  border-left border-bottom">
+						<input type="email" name="txtname"/>
+					</div>
+				</div> <!-- row -->
+				<div class="row">
+					<div class="col-5 border-right border-bottom  text-left">
+						<p>Company Name (if employed):</p>
+					</div>
+					<div class="col-5-1  border-left border-bottom border-right text-left">
+						<input type="text" name="txtname"/>
+					</div>
+				<div class="col-3  border-bottom border-right text-left">
+					<p class="margin-top">Position:</p>
+				</div>
+				<div class="col-4 text-left border-left  border-bottom">
+					<input type="text" name="txtname" id="pos" />
+				</div>
+			</div> <!-- row -->
+			<div class="row">
+					<div class="col-6 border-bottom border-right text-left">
+						<p class="font15">Self-Directed and/or Lifelong Learning:</p>
+						<label class="container">Invention / Patent
+	  						<input type="checkbox" >
+							 <span class="checkmark"></span>
+						</label>
+						<label class="container">Post-Graduate Studies
+	  						<input type="checkbox" >
+						 	<span class="checkmark"></span>
+						</label>
+						<label class="container">Authorship
+	  						<input type="checkbox" >
+						 	<span class="checkmark"></span>
+						</label>
+						<label class="container">Diploma Program
+	  						<input type="checkbox" >
+						 	<span class="checkmark"></span>
+						</label>
+						<label class="container lblother">Others 
+	  						<input type="checkbox" >
+						 	<span class="checkmark"></span>
+						</label>
+						<input class="txtother" type="text"/>
+
+					</div>
+					<div class="col-6-1  border-bottom text-left">
+						
+						<label class="container">Online Training
+	  						<input type="checkbox" >
+							 <span class="checkmark"></span>
+						</label>
+							<label class="container">Seminars / Technical Sessions / Conference
+	  						<input type="checkbox" >
+						 <span class="checkmark"></span>
+						</label>
+						<label class="container">Company sponsored training programs
+	  						<input type="checkbox" >
+						 	<span class="checkmark"></span>
+						</label>
+						<label class="container">Professorial Chair
+	  						<input type="checkbox" >
+							 <span class="checkmark"></span>
+						</label>
+					</div>
+			</div> <!-- row -->
+			<div class="row">
+					<div class="thead1 text-left">
+					<p class="bold">
+						<small>Part II. Acknowledgment</small>
+					</p>
+			</div> <!-- row -->
+				</div>
+			<div class="row">
+				<div class="col-7   border-top border-bottom border-right text-left">
+					<p>I HEREBY CERTIFY that the above information written by me are true and correct to the best of my knowledge and belief. I further authorize PRC and other agencies to investigate the authenticity of all the documents presented.</p>
+					<p class="text-center"><input type="text" name="txtbefore" class="txtsign text-center" id="Signature" /></p>
+					<p class="text-center">Signature Over Printed Name</p>
+					<p class="text-center"><input type="text" name="txtbefore" class="txtsign text-center" id="PRCPos" /></p>
+					<p class="text-center">Position</p>
+					<p class="text-center"><input type="date" name="txtbefore" class="txtsign text-center" id="AcknowlegeDate" /></p>
+					<p class="text-center">Date</p>
+				</div>
+				<div class="col-7-1 border-top border-bottom text-left">
+					<p class="margin-top">SUBSCRIBED AND SWORN to before me this <input type="number" min="1" max="31" step="1" name="txtbefore" class="txtbefore" id="DaySworn" /> day of <input type="date" name="txtday" class="txtday"/> 20<input type="text" name="txt20" class="txt20" id="Year" /> at 
+						<input type="text" name="txtat" class="txtat" id="swornAT" />, affiant exhibited to me his/her valid government issued ID <input type="text" name="txtat" class="txtbefore" id="IssuedID" /> issued at <input type="text" name="txtat" class="txtbefore" id="SwornPlace" />  on <input type="date" name="txtat" class="txtbefore" id="DateSworn" /> .</p>
+						<p class="text-right txtnotaryp"><input type="text" name="txtat" class="txtnotary text-center"/></p>
+                        <p class="text-right notary">(Notary Public)</p>
+              	</div>
+			</div> <!-- row -->
+			<div class="row">
+					<div class="thead1 text-left">
+					<small>Part III. Action Taken</small>
+					</div> 
+			</div><!-- row -->
+			<div class="row">
+				<div class="col-8 border-top border-bottom border-right text-left">
+					<p class="bold">Continuing Professional Development Division:</p>
+					<p class="text-left process ">Processed by :<input type="text" name="txtbefore" id="Processor" /></p>
+					<p class="text-left txtdate">Date<p class="txtdat">:</p><input type="date" name="txtbefore" id="ActionDate" /></p>
+				</div>
+				<div class="col-8-1 border-top border-bottom text-left">
+					<p class="bold margin-top">Cash Division:</p>
+					<p class="text-left inline">Amount<p class="txtamt">:<label>&#8369;</label></p><input type="text" id="Amount"/></p>
+					<p class="text-left inline">O.R.No./Date<p class="txtor">:</p><input type="text" id="ORNumber" /></p>	          
+					<p class="text-left inline">Issued by<p class="txtissue">:</p><input type="text" id="Issuer" /></p>
+              	</div>
+			</div> <!-- row -->
+			<div class="row">
+				<div class="col-9 border-bottom  ">
+					<p class="bold">Reviewed by:</p>
+					<p class="text-center"><input type="text" class="text-center" id="chief" /></p>
+					<p class="text-center">Chief, Continuing Professional Development Division</p>
+				</div>
+			</div><!-- row -->
+			<div class="row">
+				<div class=" border-bottom col-10">
+					<p class="font15 bold text-center action"><u>ACTION TAKEN BY THE CPD COUNCIL</u></p>
+					<label class="container approved">Approved 
+	  						<input type="checkbox" >
+							 <span class="checkmark"></span>
+						</label>
+						<label class="units">Credit Units Granted:<input type=text class="credit" id="CreditUnit"></label>
+
+						
+						<label class="container dapproved">Disapproved	
+	  						<input type="checkbox" >
+						 	<span class="checkmark"></span>
+						</label>
+						<label class="container  deferred">Deferred pending compliance
+							<input type="checkbox">
+						 	<span class="checkmark"></span>
+						</label>
+						<input type="text" class="txtdef text-left"/>
+						<p class="text-center"><input type="text" class="first"/></p>
+						<p class="text-center"><input type="text" class="second text-center" id="Chairperson" /></p>
+						<p class="text-center ">Chairperson</p>
+							<p class="text-left float-left secondpp"><input type="text" class="third text-center" id="firstMember" /></p>
+							<p class="text-left float-right secondp"><input type="text" class="third text-center" id="SecondMember" /></p>
+							<p class="text-left memberr">Member</p>
+							<p class="text-left member">Member</p>
+							
+						<p class="text-center"><input type="date" class="second text-center" id="ActionTakenDate" /></p>
+						<p class="text-center ">Date</p>
+					</div>
+			</div><!-- row -->
+				<div class="row">
+					<div class="thead1  border-bottom text-left">
+					<p class="text-center bold font15">PROCEDURE FOR CREDITING OF SELF-DIRECTED AND/OR LIFELONG LEARNING</p>
+					</div> 
+			</div><!-- row -->
+			<div class="row">
+					<div class="  border-bottom col-11">
+					<p class="font15">Step 1.  Secure Application Form at Window 15, 16, or 17 of the Registration Division, PRC-PICC, or at any
+             of the Regional Offices, or download at PRC website. <a href="www.prc.gov.ph">(www.prc.gov.ph)</a></p>
+	             	<p class="font15">Step 2.  Fill-out Application Form and comply the required documents.(Please provide one (1) set for receiving copy)</p>
+	             	<p class="font15">Step 3.  Proceed to Window 15, 16, or 17 of the Registration Division, PRC-PICC, or at any of the 
+             Regional Offices for evaluation and assessment.</p>
+	             	<p class="font15">Step 4.  Pay prescribed fee (in cash, Postal Money Order, Manager’s Check, Bank Draft payable to 
+              Professional Regulation Commission) of One Thousand Pesos (P 1,000.00).</p>
+		            <p class="font15">Step 5.  Submit Application Form with attached supporting documents and photocopy of official receipt to 
+		             Window 15, 16, or 17 of the Registration Division, PRC-PICC, or at any of the Regional Offices.</p>
+		            <p class="font15 inline">Step 6.  Verify your application after <input type="text" class="app"/>days from time of submission by calling telephone numbers:
+             310-10-48 (PRC-Main)/810-84-15 (PRC-PICC), or email at <a href="prc.cpdsecretariat@gmail.com">prc.cpdsecretariat@gmail.com</a></p>
+					</div> 
+			</div><!-- row -->
+			<div class="row">
+					<div class="thead1  border-bottom text-left">
+					<p class="text-center bold font15">CHECKLIST OF REQUIREMENTS</p>
+					</div> 
+			</div><!-- row -->
+			<div class="row">
+					<div class="col-11  border-bottom text-left">
+					<p class="text-center font15 bold">SUPPORTING DOCUMENTS</p>
+					<p class="text-center font15 bold">(comply only the document/s that is/are required to the application)</p>
+					</div> 
+			</div><!-- row -->
+			<div class="row">
+					<div class="col-11   border-bottom text-left">
+						<label class="container">Original and Photocopy of Certificate of Attendance
+		  					 <input type="checkbox" >
+							 	<span class="checkmark">
+							 	</span>
+						</label>
+						<label class="container">Program of Activities
+		  					 <input type="checkbox" >
+							 	<span class="checkmark">
+							 	</span>
+						</label>
+						<label class="container">Diploma / TOR /Certificate of Completion, etc.
+		  					 <input type="checkbox" >
+							 	<span class="checkmark">
+							 	</span>
+						</label>
+						<label class="container">Certificate of Patent
+		  					 <input type="checkbox" >
+							 	<span class="checkmark">
+							 	</span>
+						</label>
+						<label class="container">Copy of published material/book
+		  					 <input type="checkbox" >
+							 	<span class="checkmark">
+							 	</span>
+						</label>
+						<label class="container">Certificate of Entitlement /Appointment as Professorial Chair
+		  					 <input type="checkbox" >
+							 	<span class="checkmark">
+							 	</span>
+						</label>
+						<label class="container">Others that may be required by the CPD Council
+		  					 <input type="checkbox" >
+							 	<span class="checkmark">
+							 	</span>
+						</label>
+					</div> 
+			</div><!-- row -->
+			<div class="row">
+					<div class="col-11 border-bottom  text-left">
+					<p class=" font15 bold">Additional Requirements:</p>
+						<label class="container">Short brown envelope for the Certificate of Accreditation
+		  					 <input type="checkbox" >
+							 	<span class="checkmark">
+							 	</span>
+						</label>
+							<label class="container">One set of metered documentary stamps worth Twenty-Five Pesos (P25.00) to be affixed to the
+								<p class="font15">Certificate of Accreditation. (Available at PRC Customer Service and PRC Regional Offices)</p>
+		  					 <input type="checkbox" >
+							 	<span class="checkmark">
+							 	</span>
+						</label>
+							<label class="container">Soft copy of the Application including supporting attachments in PDF format saved in CD.
+		  					 <input type="checkbox" >
+							 	<span class="checkmark">
+							 	</span>
+						</label>
+							<label class="container"> Pre-paid pouch (preferably from Philpost) for applications filed in Regional Offices only.
+		  					 <input type="checkbox" >
+							 	<span class="checkmark">
+							 	</span>
+						</label>
+					</div> 
+			</div><!-- row -->
+			<div class="row">
+					<div class="  thead1 text-left">
+					<p class="font15 bold">Note:</p>
+					<p class="font15">1.Application for CPD Credit units of Master’s degree or its equivalent and Doctoral degree or its equivalent shall be filled not later than five (5) years from completion of the said degrees.</p>
+					<p class="font15">2.Representative/s filing application/s for accreditation and claiming the Certificate of Accreditation in behalf of the applicant must present a letter of authorization and valid identification cards of both the authorized signatory and the representative.</p>
+					<p class="font15">3.The period for processing the application is 60 days.</p>
+					<p class="font15">4.If additional requirement/s is/are needed, a period of 15 days is given to submit the same. Failure to comply within the period shall be construed as abandonment of application and the prescribed fee shall be forfeited in favor of the government.</p>
+					</div> 
+			</div><!-- row -->
+		
+
+			</div>
+		</section>
+
+		</main>
+
+	</form>
+
+</body>
+</html>
